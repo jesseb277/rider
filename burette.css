@@ -1,0 +1,35 @@
+P{
+    border: 5px solid black;
+    margin: 20px;
+    padding: 10px;
+    font-size:25px
+   
+}
+
+.navigation {
+    display :flex;
+    background-color: black;
+    overflow-x: scroll;
+}
+.navigation::-webkit-scrollbar{
+    display: none;
+}
+
+.navigation >li{
+    color: white;
+    margin: right 10px;
+    list-style-type: none;
+    text-wrap: nowrap;
+    text-transform: uppercase;
+    fontsize: 10px;
+}
+
+navigation > li:hover{
+    background-color: #159b23
+}
+
+
+
+    
+   
+
